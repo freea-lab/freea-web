@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@src/*": ["./src/*"]
+    },
+    "strict": true,
+    "target": "esnext"
+  }
+}
